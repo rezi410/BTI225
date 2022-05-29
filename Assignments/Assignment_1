@@ -1,3 +1,4 @@
+```Javascript
 
 console.log("/***************************** Task1 *************************/");
 
@@ -72,3 +73,5 @@ convertCF("32", "M");
 convertCF(32, 'F');
 convertCF(0, "C");
 convertCF(122, "F");
+
+```
