@@ -1,1 +1,91 @@
 
+Assignment 1
+[8+7+1+4=20 marks]
+
+Due: Friday, February 5, 2021 @23:59
+
+Objective:
+Practice JavaScript basic syntax, built‐in functions, and user-defined functions. 
+
+Specification:
+Write a JavaScript program a1.js to perform the following two (2) tasks.
+Create comment line(s) for each of the Tasks using block comments, indicating the start point of each Task. e.g.
+/***************************** Task1 *************************/
+
+Task 1: Play with numbers [8 marks]
+Using function declaration, define a JavaScript function (name it: playNumbers), which takes indefinite number of parameters.
+This function does not return any value. Instead,
+(1)	if the function call didn't pass any arguments, your function displays: There are no inputs.
+
+program terminates.
+
+(2)	if one or more arguments are not numbers, your function displays: (The parameter) is not a number.
+for all the arguments that are not a number.
+e.g. if the parameters are ("abc", 3, "hello"), your program displays: abc is not a number.
+hello is not a number.
+
+program terminates.
+
+(3)	Otherwise (if not (1) nor (2)),
+(3.1) it displays the largest value of all the parameters in the format:
+The largest number of (para1, para2,...) is (the largest value). e.g., The largest number of (9, 3, 6) is 9.
+(3.2) it displays the average of all the values in the format: The average of (para1, para2, ...) is (the average).
+e.g., The average of (9, 3, 6) is 6.
+ 
+
+(4)	Test your program using the following statements. console.log("/***************************** Task1 *************************/");
+playNumbers(); playNumbers("abc", 3, "hello");
+playNumbers(9,3,6); playNumbers(3,5,1,3,5); playNumbers("Good day!",3,4,32,"hi", "we");
+
+output is as follows:
+
+/***************************** Task1 *************************/ There are no inputs.
+abc is not a number. hello is not a number.
+The largest number of (9, 3, 6) is 9
+The average of (9, 3, 6) is 6
+The largest number of (3, 5, 1, 3, 5) is 5
+The average of (3, 5, 1, 3, 5) is 3.4 Good day! is not a number.
+hi is not a number. we is not a number.
+Task 2: Celsius and Fahrenheit temperature converter [7 marks]
+Using function expression, write a JavaScript function (name it: convertCF) convert temperatures between Celcius and Farenheit.
+this function takes two parameters (val, cf), where val is the value you need to convert.
+This function does not return any result.
+(1)	if val is not a number, your function displays, "I need a number". terminate the program.
+(2)	if cf is not "C" or "F", your function displays "I am confused :(" terminate the program.
+(3)	if cf is "C", val is the value in Celcius, your function will convert it to Farenheit degree, and display:
+(val)C is equivalent to (the result from your calculation)F. e.g., call function convertCF(0, C), it displays:
+0C is equivalent to 32F.
+(4)	if cf is "F", val is the value in Farenheit, your function will convert it to Celcius degree, and display: (val)F is equivalent to (the result from your calculation)C.
+e.g., call function convertCF(122, F), it displays:
+
+122F is equivalent to 50C.
+(5)	test (call) your function with the example input (parameters): (0, C)
+(32, F)
+(122, F)
+*/
+Test with the following statements. The corresponding result follows.
+console.log("/***************************** Task2 *************************/"); convertCF("avc", "F");
+convertCF("32", "M");
+convertCF(32, 'F');
+convertCF(0, "C");
+convertCF(122, "F");
+
+Sample result for the above function calls:
+/***************************** Task2 *************************/ I need a number.
+I am confused :(
+32F is equivalent to 0C 0C is equivalent to 32F 122F is equivalent to 50C
+
+Submission:
+Save your file as a1.js. Add the following comment declaration with your info at the top of your code:  									[1 mark]
+/****************************************************************************
+*	Assignment 1
+*	I declare that this assignment is my own work in accordance with Seneca Academic Policy.
+*	No part of this assignment has been copied manually or electronically from any other source
+*	(including web sites) or distributed to other students.
+*	Name: 	Student ID: 	Date:  	
+****************************************************************************/
+Submit your a1.js to Blackboard under assignment section
+You will also need to create a 3-5 min video in which you demo/test your code and explain it as you do so. Submit this video with a1.js through Blackboard [4 marks]
+
+•	Late submission:
+10% penalty each day for up to 5 days. After that, no submission will be accepted.
