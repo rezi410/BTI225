@@ -9,16 +9,20 @@ Write a JavaScript program a1.js to perform the following two (2) tasks.
 Create comment line(s) for each of the Tasks using block comments, indicating the start point of each Task. e.g.
 /***************************** Task1 *************************/
 
-Task 1: Play with numbers [8 marks]
+Task 1: Play with numbers 
 Using function declaration, define a JavaScript function (name it: playNumbers), which takes indefinite number of parameters.
 This function does not return any value. Instead,
-(1)	if the function call didn't pass any arguments, your function displays: There are no inputs.
+
+(1)	if the function call didn't pass any arguments, your function displays: 
+
+There are no inputs.
 
 program terminates.
 
 (2)	if one or more arguments are not numbers, your function displays: (The parameter) is not a number.
 for all the arguments that are not a number.
-e.g. if the parameters are ("abc", 3, "hello"), your program displays: abc is not a number.
+e.g. if the parameters are ("abc", 3, "hello"), your program displays:
+abc is not a number.
 hello is not a number.
 
 program terminates.
@@ -30,7 +34,8 @@ The largest number of (para1, para2,...) is (the largest value). e.g., The large
 e.g., The average of (9, 3, 6) is 6.
  
 
-(4)	Test your program using the following statements. console.log("/***************************** Task1 *************************/");
+(4)	Test your program using the following statements. 
+console.log("/***************************** Task1 *************************/");
 playNumbers(); playNumbers("abc", 3, "hello");
 playNumbers(9,3,6); playNumbers(3,5,1,3,5); playNumbers("Good day!",3,4,32,"hi", "we");
 
