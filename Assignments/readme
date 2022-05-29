@@ -72,17 +72,3 @@ Sample result for the above function calls:
 I am confused :(
 32F is equivalent to 0C 0C is equivalent to 32F 122F is equivalent to 50C
 
-Submission:
-Save your file as a1.js. Add the following comment declaration with your info at the top of your code:  									[1 mark]
-/****************************************************************************
-*	Assignment 1
-*	I declare that this assignment is my own work in accordance with Seneca Academic Policy.
-*	No part of this assignment has been copied manually or electronically from any other source
-*	(including web sites) or distributed to other students.
-*	Name: 	Student ID: 	Date:  	
-****************************************************************************/
-Submit your a1.js to Blackboard under assignment section
-You will also need to create a 3-5 min video in which you demo/test your code and explain it as you do so. Submit this video with a1.js through Blackboard [4 marks]
-
-•	Late submission:
-10% penalty each day for up to 5 days. After that, no submission will be accepted.
