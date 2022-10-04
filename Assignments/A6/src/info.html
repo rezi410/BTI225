@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <script src="./info.js"></script>
+    <title>Info Page</title>
+</head>
+
+<body>
+    <header>
+        <a href="info.html"><img src="https://www.theregister.com/design_picker/621fa76b064a476dc713ebf25bbf16451c706c03/graphics/icons/reg_logo_og_image_1200x630.jpg" width="1000" height="100" alt="Image of ZARA"></a>
+        <a href="info.html"><h1 id="register_head">ZARA CLOTHING STORE</h1></a>
+    </header>
+
+    
+    <nav id="navigation_info">       
+        <a href="home.html"><h4><u><i>Home</i></u></h4></a><hr>
+        <a href="products.html"><h4><u><i>Products</i></u></h4></a><hr>
+        <a href="info.html"><h4><u><i>Register</i></u></h4></a><hr>
+        <a href="honesty.html"><h4><u><i>Honesty</i></u></h4></a><hr>
+    </nav>
+    
+    <div class="centre">
+        <h2 id="Signup"><u>***** Signup Sheet *****</u></h2><br>
+        <form  method="post" action="https://httpbin.org/post" onsubmit="return FormCheck();">
+            <fieldset id="field">
+                <legend id="info_id"><u><b>1. Contact Information</b></u></legend>
+                
+                
+                <label for="First_Name">First Name: </label>
+                <input type="text" name="First_Name" id="name" required onchange = "Check_Name('First_Name')">
+                <label for="Last_Name">Last Name: </label>
+                <input type="text" name="Last_Name" id="name" required onchange = "Check_Name('Last_Name')">
+                
+                <label for="password">Password: </label>
+                <input type="password" name="password" id="password" required onchange="Check_Password()">
+                <label for="passwordConfirm">Confirm Password: </label>
+                <input type="password" name="password" id="Confirm_password" required onchange="Check_Password()">
+                <label for="username">Username: </label>
+                <input type="text" name="username" id="username" required onchange="Check_username()">
+                <label for="age">Age: </label>
+                <input type="number" name="Age" id="Age" required onchange="Check_age()">
+
+                <label><b>Gender </b></label>
+                <label><i><u>Male: </u></i></label><input id="Gender" type="radio" value="M">
+                <label><i><u>Female: </u></i></label><input id="Gender" type="radio" value="F"> 
+                <label><i><u>Prefer Not To Share: </u></i></label><input id="Gender" type="radio" value="U"> <br>
+
+
+            </fieldset>
+
+            <fieldset id="field">
+                <legend id="info_id"><u><b>2. Shipping Information</u></b></legend><br>
+                <label for="unit">Unit #: </label>
+                <input type="text" name="unit" id="unit">
+                <label for="streetNum">Street #: </label>
+                <input type="text" name="streetNum" id="streetNum" required>
+                <label for="streetName">Street Name: </label>
+                <input type="text" name="streetName" id="streetName" required onfocusout="var streetName = validateAlpha(streetName);">
+                <label for="city">City: </label>
+                <input type="text" name="city" id="city" required onfocusout="var city = validateAlpha(city);">
+                <label for="postalCode">Postal Code: </label>
+                <input type="text" name="postalCode" id="postalCode" required>
+                <label for="province">Province: </label>
+                <select name="shippingProvince" id="province" required>
+                    <option>-Select-</option>
+                    <option value="AB">Alberta</option>
+                    <option value="BC">British Columbia</option>
+                    <option value="MB">Manitoba</option>
+                    <option value="NB">New Brunswick</option>
+                    <option value="NL">Newfoundland and Labrador</option>
+                    <option value="NS">Nova Scotia</option>
+                    <option value="NT">Northwest Territories</option>
+                    <option value="NU">Nunavut</option>
+                    <option value="ON">Ontario</option>
+                    <option value="PE">Prince Edward Island</option>
+                    <option value="QC">Quebec</option>
+                    <option value="SK">Saskatchewan</option>
+                    <option value="YT">Yukon</option>
+                </select>
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email" required>
+            </fieldset>
+        </form>
+
+        <input type="hidden" name="lastName" id="lastName" value="Sulaiman" />
+        <input type="hidden" name="studentId" id="studentId" value="106153208" />
+        
+        <hr>
+          <button id="reset" type="reset" value="Reset">Reset</button>
+        <button id="submit" type="submit" value="Submit">Submit</button>
+        
+    </div>
+
+    <aside class="side"><br>&nbsp;&nbsp;Error Messages &nbsp;&nbsp;Goes Here: .........
+    <span id="errors"></span><hr></aside>
+      <hr><footer id="info_foot">&copy; By Reziyemu Sulaiman</footer>
+</body>
+
+</html>

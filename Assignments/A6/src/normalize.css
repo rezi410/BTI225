@@ -1,0 +1,242 @@
+html {
+    min-height: 100%;
+    width: 1050px;
+}
+
+body {
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+background-color:pink;
+}
+
+
+
+header {
+    height: 100px;
+    width: 100%;
+    background-color: darkgrey;
+    margin: 10px;
+    border: solid black 2px;
+    border-radius: 3px;
+    
+}
+
+
+
+#Gender {
+    margin-left: -60px;
+}
+
+
+#navigation {
+margin: 10px;
+padding-top: 50px;
+padding-right: 5px;
+padding-left: 10px;
+height: 55%;
+width: 130px;
+border: solid black 5px;
+position: absolute;
+border-radius: 5px;
+background-color: white;
+color: white;
+}
+
+
+#text {
+background-color:white;
+border: solid black 3px;
+border-radius: 10px;
+width: 70%;
+margin-left: 170px;
+padding: 10px;
+}
+
+
+
+#pText {
+    color:white;
+    font-family:cursive
+}
+
+
+#pfoot {
+    background-color:grey;
+    vertical-align: middle;
+    margin-left: 165px;
+    font-size: 15px;
+    text-align: center;    
+    border: solid black 6px;   
+}
+
+
+
+footer {
+    background-color:snow;
+    margin-left: 100px;
+    font-size: 15px;
+    vertical-align: middle;
+    text-align: center;    
+    border: solid black 4px;
+}
+    
+
+
+#foot_honesty {
+    background-color:lightsteelblue;
+    margin-left: 100px;
+    font-size: 15px;
+    vertical-align: middle;
+    text-align: center;    
+    border: solid black 4px;
+
+}
+
+
+#head_honesty {
+    color:mediumslateblue
+}
+
+
+#register_head {
+    color:skyblue;
+}
+
+
+#Signup {
+    padding-right: 20%;
+    padding-left: 35%;
+    padding-top: 2%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+
+
+a:link {
+    color: white;
+    text-decoration: none;
+    }
+    
+
+
+header h1{
+    font-family: 'Unica One', cursive;
+    font-size: 40px;
+    color: black;
+    margin-left: 100px;
+    margin-top: -57px;
+}
+
+header, img {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+
+
+h2 {
+    height: 50px;
+    position: initial;
+    padding-top: 5px;
+    font-size: 25px;
+    text-align: center;
+    background-color: darkgrey;
+}
+
+
+
+label {
+    clear: left;
+    text-align: right;
+    width: 300px;    
+    float: left;
+}
+
+
+select {
+    width: 200px;    
+    float: left;
+    margin: 5px;
+    box-sizing: border-box;
+    }
+
+
+
+    input {
+        width: 200px;    
+        float: left;
+        margin: 5px;
+        box-sizing: border-box;
+    }
+
+
+.side {
+    background-color:white;   
+    border-radius: 3px;
+    float: right;
+    width: 130px;    
+    height: 240px;
+    margin-top: -625px;
+    border: solid black 3px;
+}
+
+fieldset {
+    margin: 5px;    
+}
+
+
+#navigation_info {
+margin: 5px;
+margin-top: 80px;
+padding-top: 50px;
+padding-right: 5px;
+padding-left: 10px;
+height: 55%;
+width: 130px;
+border: solid black 5px;
+position: absolute;
+border-radius: 5px;
+background-color: white;
+color: white;
+
+}
+
+
+#field {
+    margin-left: 100px;
+}
+
+
+#reset {
+    margin-left: 700px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: solid grey 3px;
+}
+
+#submit {
+    padding-left: 40px;
+    padding-right: 40px;   
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: solid grey 3px;
+}
+
+
+#info_id {
+    padding-left: 300px;
+}
+
+
+
+#info_foot {
+    background-color:paleturquoise;
+    margin: 30px;
+    font-size: 15px;
+    vertical-align: middle;
+    text-align: center;    
+    border: solid black 4px;
+
+}
